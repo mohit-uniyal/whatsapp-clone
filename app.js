@@ -37,7 +37,7 @@ const server=app.listen(PORT, ()=>{
 
 const io=new Server(server, {
     cors: {
-        origin: true
+        origin: 'https://whatsapp-clone-b3ra.onrender.com'
     }
 })
 
